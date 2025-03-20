@@ -1,0 +1,32 @@
+{
+  "name": "jenil-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.4.7",
+    "jenil-site": "file:",
+    "lenis": "^1.1.16",
+    "lucide-react": "^0.482.0",
+    "next": "^14.2.8",
+    "prop-types": "^15.8.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-is": "^19.0.0",
+    "reveal.js": "^5.1.0",
+    "spectacle": "^10.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "@types/react": "19.0.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
