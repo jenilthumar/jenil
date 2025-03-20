@@ -4,11 +4,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { fadeInUp } from "../animations";
 import { useRouter } from "next/navigation";
-import { useLenisScroll } from "@/hooks/use-lenis-scroll";
 import { Footer } from "@/components/footer";
 
 const FractionallyPage = () => {
-  useLenisScroll();
   const router = useRouter();
 
   return (

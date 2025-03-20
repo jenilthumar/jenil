@@ -1,7 +1,6 @@
 "use client";
 
 import { Footer } from "@/components/footer";
-import { useLenisScroll } from "@/hooks/use-lenis-scroll";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll } from "framer-motion";
@@ -11,7 +10,6 @@ import AnnouncementBanner from "@/components/announcement-banner";
 import { fadeInUp } from './animations';
 
 export default function Home() {
-  useLenisScroll();
   const imageRef = useRef(null);
   const router = useRouter();
 
