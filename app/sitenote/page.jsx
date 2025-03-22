@@ -131,8 +131,8 @@ const SitenotePage = () => {
                     <div className="text-[#1a1a1a] font-[600] text-[2rem] tracking-tight">goal</div>
                     <div className="mt-[1.5rem] text-[#1a1a1a] font-[500] text-[1.25rem]">A digitally centralized and synced workspace for</div>
                     <div className="mt-[1.5rem] text-[#1a1a1a] font-[500] text-[1.25rem]">
-                        <div>1. Centralized communication</div>
-                        <div className="mt-[1rem]">2. Centralized place to store all the communication and data</div>
+                        <div className="text-[#1a1a1a] font-[500]">1. Centralized communication</div>
+                        <div className="mt-[1rem] text-[#1a1a1a] font-[500]">2. Centralized place to store all the communication and data</div>
                     </div>
                 </div>
                 <div className="mt-[4rem]">
