@@ -79,14 +79,14 @@ export default function Home() {
         }}
       >
         <motion.h2
-          className="text-[2rem] font-[700] tracking-tight text-[#1a1a1a]"
+          className="text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
           variants={fadeInUp}
         >
-          Jenil
+          Jenil H.T
         </motion.h2>
 
         <motion.div
-          className="mt-[0.5rem] text-[1.25rem] font-[400]"
+          className="mt-[0.5rem] text-[1.25rem] font-[440]"
           variants={fadeInUp}
         >
           <Link href="/aboutme">
@@ -111,7 +111,7 @@ export default function Home() {
         </motion.div>
 
         <motion.p
-          className="mt-[2rem] text-[#1a1a1a] font-[500] text-[1.25rem]"
+          className="mt-[2rem] text-[#1a1a1a] font-[550] tracking-normal text-[1.30rem]"
           variants={fadeInUp}
         >
           20, a product/visual designer who emphasizes on creating experiences
@@ -120,7 +120,7 @@ export default function Home() {
 
         <motion.a
           href="mailto:jenilthummar3108@gmail.com"
-          className="mt-[1.5rem] inline-block px-[1.25rem] py-[0.7rem] bg-[#1a1a1a] hover:opacity-80 transition-all text-[#FAFAFA] text-[1.25rem] font-[500] rounded-[0.5rem]"
+          className="mt-[1.5rem] inline-block px-[1.25rem] py-[0.7rem] bg-[#1a1a1a] hover:opacity-80 transition-all text-[#FAFAFA] text-[1.25rem] font-[550] rounded-[0.5rem]"
           variants={fadeInUp}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 1 }}
@@ -151,7 +151,7 @@ export default function Home() {
 
       <div className="lg:max-w-[45rem] w-full mx-auto mt-[4rem] px-2">
         <motion.h2
-          className="text-[2rem] font-[500] tracking-tight text-[#1a1a1a]"
+          className="text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -199,7 +199,7 @@ export default function Home() {
             </motion.div>
 
             <motion.div
-              className="mt-[2rem] text-[2rem] font-[500] tracking-tight px-[1.5rem]"
+              className="mt-[2rem] text-[2rem] font-[600] tracking-tight px-[1.5rem]"
               style={{ lineHeight: "normal" }}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -221,9 +221,7 @@ export default function Home() {
                   key={tagIndex}
                   className={`${
                     tagIndex > 0 ? "ms-[1rem]" : ""
-                  } p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
-                  whileHover={{ backgroundColor: "#d6d6d6" }}
-                  transition={{ duration: 0.2 }}
+                  } p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] font-[500] text-[#505050] inline`}
                 >
                   {tag}
                 </motion.div>

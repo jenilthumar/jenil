@@ -1,9 +1,9 @@
-import { IBM_Plex_Sans } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const IBMPlexSans = IBM_Plex_Sans({
+const PlusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"]
+  weight: ["variable"]
 });
 
 export const metadata = {
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={IBMPlexSans.className}>{children}</body>
+      <body className={PlusJakartaSans.className}>{children}</body>
     </html>
   );
 }

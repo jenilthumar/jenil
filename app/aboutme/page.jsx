@@ -21,21 +21,21 @@ export default function AboutMe() {
         {/* Content section */}
         <div className="w-full md:w-3/5 flex flex-col justify-center">
           <div className="space-y-6">
-            <h1 className="text-[#1a1a1a] text-[1.75rem] font-[500]">figuring out things. 19.</h1>
+            <h1 className="text-[#1a1a1a] text-[1.75rem] font-[600]">figuring out things. 19.</h1>
 
-            <p className="text-[#1a1a1a] text-[1.25rem] font-[400]">
+            <p className="text-[#1a1a1a] text-[1.25rem] font-[500]">
               currently building awesome experiences, watching movies, shows and exciting content & reading, while
               learning to become a good human. all focus on being curious, calm, focused and fit. love to explore new
               places, collecting memories, work on hobbies & investing in stonks.
             </p>
 
-            <p className="text-[#1a1a1a] text-[1.25rem] font-[400]">
+            <p className="text-[#1a1a1a] text-[1.25rem] font-[500]">
               spent last 3 years working on exciting things and studying bachelor of computer applications from vnsgu,
               surat.
             </p>
 
             <div className="pt-2">
-              <p className="text-[#4d4d4d] text-[1.25rem] italic">
+              <p className="text-[#414A4C] text-[1.25rem] font-[400] italic">
                 <Link href="#projects" className="hover:underline">
                   projects
                 </Link>
