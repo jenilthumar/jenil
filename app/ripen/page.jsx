@@ -21,7 +21,7 @@ const RipenPage = () => {
           Jenil
         </motion.h2>
         <motion.div
-          className="mt-[0.5rem] text-[1.25rem] font-[400] tracking-tight"
+          className="mt-[0.5rem] text-[1.25rem] font-[440] tracking-tight"
           variants={fadeInUp}
         >
           <Link href={"/about"}>
@@ -50,7 +50,7 @@ const RipenPage = () => {
       </div>
       <div className="mt-[3.88rem] lg:max-w-[45rem] w-full mx-auto px-2 lg:px-0">
         <motion.p
-          className="mt-[2.25rem] text-[2rem] font-[500] tracking-tight text-[#1a1a1a]"
+          className="mt-[2.25rem] text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
           style={{ lineHeight: "normal" }}
           variants={fadeInUp}
         >
@@ -63,21 +63,21 @@ ripen        </motion.p>
           viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             deck design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             presentation design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
@@ -87,8 +87,8 @@ ripen        </motion.p>
         <div className="mt-[2rem]">
           <div className="flex justify-between lg:pe-[4rem] text-[1.125rem]">
             <div>
-              <div className="text-[#464646]">client</div>
-              <div className="text-[#1a1a1a]">hobby project</div>
+              <div className="text-[#464646] font-[500]">client</div>
+              <div className="text-[#1a1a1a] font-[500]">hobby project</div>
             </div>
           </div>
         </div>
@@ -101,8 +101,8 @@ ripen        </motion.p>
         />
       </div>
       <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
-        <div className="text-[#1a1a1a] text-[2rem] font-[500]">context</div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[2rem] font-[600] tracking-tight">context</div>
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
         This deck project is very close to my heart and it was a hobby project, I got to know about ripen when they first started out, they had a discord community where I made lots of friends there, just great time to be there and they were in early stage that time(shutdown in dec 2023) and they had this web page about what ripen is, in text with few images mostly, so I used that and created an investors deck out of it, purely for fun and love for ripen and community :)        </div>
       </div>
       <div className="mt-[4rem] max-w-[65rem] mx-auto w-full px-2 lg:px-0">
@@ -125,14 +125,14 @@ ripen        </motion.p>
       <div className="lg:w-[45rem] mx-auto px-2 lg:px-0">
         <div className="mt-[6rem]" onClick={() => router.push("/sitenote")}>
           <div
-            className="text-[#1a1a1a] font-[500] text-[2rem] mt-[6rem]"
+            className="text-[#1a1a1a] font-[600] tracking-tight text-[2rem] mt-[6rem]"
             style={{ lineHeight: "normal" }}
           >
             next project
           </div>
           <img src="rp/sitenote.webp" className="mt-[2rem]" alt="" />
           <div
-            className="mt-[2rem] text-[2rem] font-[500] tracking-tight px-[1.5rem]"
+            className="mt-[2rem] text-[2rem] font-[600] tracking-tight px-[1.5rem]"
             style={{ lineHeight: "normal" }}
           >
             fractionally
@@ -146,21 +146,21 @@ ripen        </motion.p>
           viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             website design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             showcase
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >

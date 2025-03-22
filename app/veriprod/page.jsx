@@ -51,7 +51,7 @@ const VeriprodPage = () => {
       </div>
       <div className="mt-[3.88rem] lg:max-w-[45rem] w-full mx-auto px-2 lg:px-0">
         <motion.p
-          className="mt-[2.25rem] text-[2rem] font-[500] tracking-tight text-[#1a1a1a]"
+          className="mt-[2.25rem] text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
           style={{ lineHeight: "normal" }}
           variants={fadeInUp}
         >
@@ -65,14 +65,14 @@ const VeriprodPage = () => {
           viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             product design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
@@ -82,12 +82,12 @@ const VeriprodPage = () => {
         <div className="mt-[2rem]">
           <div className="flex justify-between lg:pe-[4rem] text-[1.125rem]">
             <div>
-              <div className="text-[#464646]">client</div>
-              <div className="text-[#1a1a1a]">concept project</div>
+              <div className="text-[#464646] font-[500]">client</div>
+              <div className="text-[#1a1a1a] font-[500]">concept project</div>
             </div>
             <div>
-              <div className="text-[#464646]">model</div>
-              <div className="text-[#1a1a1a]">app</div>
+              <div className="text-[#464646] font-[500]">model</div>
+              <div className="text-[#1a1a1a] font-[500]">app</div>
             </div>
           </div>
         </div>
@@ -100,15 +100,15 @@ const VeriprodPage = () => {
         />
       </div>
       <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
-        <div className="text-[#1a1a1a] text-[2rem] font-[500]">context</div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[2rem] font-[600] tracking-tight">context</div>
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
           Veriprod was created because I was constantly forgetting about the
           expiry dates of products I bought and then forgetting about it after
           purchasing, and it&apos;s not just me; it&apos;s a universal problem; no one can
           actually keep track of product expiry dates when there are dozens of
           things we buy every now and then.
         </div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
           My main focus in this project was to create minimal and to-the-point
           UI/UX. ZERO BLUFF! Keeping the app as simple to use as possible for
           all types of users. When developing the app, I kept time in mind at
@@ -123,12 +123,12 @@ const VeriprodPage = () => {
         />
       </div>
       <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
-        <div className="text-[#1a1a1a] text-[2rem] font-[500]">goal</div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[2rem] font-[600] tracking-tight">goal</div>
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
           The main and only goal was to create an app that keep track of the
           expiry date of a product with minimal effort.{" "}
         </div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
           Veriprod&apos;s main goal, broken down into small steps:{" "}
         </div>
       </div>
@@ -140,15 +140,15 @@ const VeriprodPage = () => {
         />
       </div>
       <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
-        <div className="text-[#1a1a1a] text-[2rem] font-[500]">
+        <div className="text-[#1a1a1a] text-[2rem] font-[600] tracking-tight">
           user flow & information architecture
         </div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
           The goal of this exercise is to comprehend the user journey from the
           beginning to the end of the process. It also aided us in the creation
           of the information architecture.{" "}
         </div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
           Add a product {" -> "} Add photo of product {" -> "} Add name {" -> "} Add expiry date{" "}
         </div>
       </div>
@@ -169,14 +169,14 @@ const VeriprodPage = () => {
       <div className="lg:w-[45rem] mx-auto px-2 lg:px-0">
         <div className="mt-[6rem]" onClick={() => router.push("/wheatsville")}>
           <div
-            className="text-[#1a1a1a] font-[500] text-[2rem] mt-[6rem]"
+            className="text-[#1a1a1a] font-[600] tracking-tight text-[2rem] mt-[6rem]"
             style={{ lineHeight: "normal" }}
           >
             next project
           </div>
           <img src="vp/s5.webp" className="mt-[2rem]" alt="" />
           <div
-            className="mt-[2rem] text-[2rem] font-[500] tracking-tight px-[1.5rem]"
+            className="mt-[2rem] text-[2rem] font-[600] tracking-tight px-[1.5rem]"
             style={{ lineHeight: "normal" }}
           >
             wheatsville coop
@@ -190,21 +190,21 @@ const VeriprodPage = () => {
           viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             website design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             showcase
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >

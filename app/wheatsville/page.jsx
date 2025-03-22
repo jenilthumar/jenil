@@ -51,7 +51,7 @@ const WheatsvillePage = () => {
       </div>
       <div className="mt-[3.88rem] lg:max-w-[45rem] w-full mx-auto px-2 lg:px-0">
         <motion.p
-          className="mt-[2.25rem] text-[2rem] font-[500] tracking-tight text-[#1a1a1a]"
+          className="mt-[2.25rem] text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
           style={{ lineHeight: "normal" }}
           variants={fadeInUp}
         >
@@ -64,21 +64,21 @@ wheatsville co-op        </motion.p>
           viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             website design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             showcase
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
@@ -88,8 +88,8 @@ wheatsville co-op        </motion.p>
         <div className="mt-[2rem]">
           <div className="flex justify-between lg:pe-[4rem] text-[1.125rem]">
             <div>
-              <div className="text-[#464646]">client</div>
-              <div className="text-[#1a1a1a]">wheatsville co-op, texas</div>
+              <div className="text-[#464646] font-[500]">client</div>
+              <div className="text-[#1a1a1a] font-[500]">wheatsville co-op, texas</div>
             </div>
           </div>
         </div>
@@ -102,11 +102,11 @@ wheatsville co-op        </motion.p>
         />
       </div>
       <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
-        <div className="text-[#1a1a1a] text-[2rem] font-[500]">context</div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[2rem] font-[600] tracking-tight">context</div>
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem] ">
         Wheatsville Co-op is a community-owned food cooperative in Austin, Texas.
         </div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
         Their previous website was outdated. They wanted a fresh look and experience while keeping their brand touch there, It was collaboration with my friend Taylor. He guided me with design and brand direction and I designed new wireframes.
         </div>
       </div>
@@ -153,21 +153,21 @@ wheatsville co-op        </motion.p>
         />
       </div>
       <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
         I&apos;ve come to realize that while working on concept projects, it&apos;s tempting to focus on creating visually stunning designs that catch the eye. However, in real-world projects for actual businesses, prioritizing user experience and ensuring a smooth flow through the user interface becomes essential. It&apos;s important to understand that a website should serve its purpose and meet its goals, rather than just being aesthetically pleasing. This valuable insight has been my key takeaway from this project. 
         </div>
       </div>
       <div className="lg:w-[45rem] mx-auto px-2 lg:px-0">
         <div className="mt-[6rem]" onClick={() => router.push("/shilp")}>
           <div
-            className="text-[#1a1a1a] font-[500] text-[2rem] mt-[6rem]"
+            className="text-[#1a1a1a] font-[600] tracking-tight text-[2rem] mt-[6rem]"
             style={{ lineHeight: "normal" }}
           >
             next project
           </div>
           <img src="wv/wv-8.webp" className="mt-[2rem]" alt="" />
           <div
-            className="mt-[2rem] text-[2rem] font-[500] tracking-tight px-[1.5rem]"
+            className="mt-[2rem] text-[2rem] font-[600] tracking-tight px-[1.5rem]"
             style={{ lineHeight: "normal" }}
           >
             Shilp
@@ -181,21 +181,21 @@ wheatsville co-op        </motion.p>
           viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             website design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             showcase
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >

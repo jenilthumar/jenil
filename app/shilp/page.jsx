@@ -49,7 +49,7 @@ const ShilpPage = () => {
       </div>
       <div className="mt-[3.88rem] lg:max-w-[45rem] w-full mx-auto px-2 lg:px-0">
         <motion.p
-          className="mt-[2.25rem] text-[2rem] font-[500] tracking-tight text-[#1a1a1a]"
+          className="mt-[2.25rem] text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
           style={{ lineHeight: "normal" }}
           variants={fadeInUp}
         >
@@ -62,21 +62,21 @@ shilp        </motion.p>
           viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             website design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             showcase
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
@@ -86,8 +86,8 @@ shilp        </motion.p>
         <div className="mt-[2rem]">
           <div className="flex justify-between lg:pe-[4rem] text-[1.125rem]">
             <div>
-              <div className="text-[#464646]">client</div>
-              <div className="text-[#1a1a1a]">shilp</div>
+              <div className="text-[#464646] font-[500]">client</div>
+              <div className="text-[#1a1a1a] font-[500]">shilp</div>
             </div>
           </div>
         </div>
@@ -101,9 +101,9 @@ shilp        </motion.p>
       </div>
       <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
         <div className="text-[#1a1a1a] text-[2rem] font-[500]">context</div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
         Shilp is a digital product agency.        </div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
         The concept revolves around creating a website that represents the company&apos;s vision, providing prospective clients with insights into the services offered and the work accomplished. This is a marketing website designed with user-friendly navigation in mind, utilizing a grid design to effectively present the content. The desired aesthetic is bold and precise.        </div>
       </div>
       <div className="mt-[4rem] max-w-[65rem] mx-auto w-full px-2 lg:px-0">
@@ -149,20 +149,20 @@ shilp        </motion.p>
         />
       </div>
       <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[400] mt-[1.5rem]">
+        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
         Learned a lot about user experience(UX), navigation, website design and design system. Collaborated with a developer and got good insights of developers&apos; perspective on website design and development, overall amazing experience and insights crafting this website and content.         </div>
       </div>
       <div className="lg:w-[45rem] mx-auto px-2 lg:px-0">
         <div className="mt-[6rem]" onClick={() => router.push("/fractionally")}>
           <div
-            className="text-[#1a1a1a] font-[500] text-[2rem] mt-[6rem]"
+            className="text-[#1a1a1a] font-[600] tracking-tight text-[2rem] mt-[6rem]"
             style={{ lineHeight: "normal" }}
           >
             next project
           </div>
           <img src="shilp/sh-8.webp" className="mt-[2rem]" alt="" />
           <div
-            className="mt-[2rem] text-[2rem] font-[500] tracking-tight px-[1.5rem]"
+            className="mt-[2rem] text-[2rem] font-[600] tracking-tight px-[1.5rem]"
             style={{ lineHeight: "normal" }}
           >
             fractionally
@@ -176,21 +176,21 @@ shilp        </motion.p>
           viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             website design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
             showcase
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#E6E6E6] rounded-[3.125rem] text-[#464646] inline`}
+            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
             whileHover={{ backgroundColor: "#d6d6d6" }}
             transition={{ duration: 0.2 }}
           >
