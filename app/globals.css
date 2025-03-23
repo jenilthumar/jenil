@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: #F7F4F1;
+}
+
 .dotfont{
   font-family: Regular;
 }
