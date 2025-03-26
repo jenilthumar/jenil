@@ -1,6 +1,8 @@
 "use client";
 
 import { Footer } from "@/components/footer";
+import { NewFooter } from "@/components/newFooter";
+import { Hero } from "@/components/hero";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll } from "framer-motion";
@@ -66,17 +68,18 @@ export default function Home() {
       <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
         <AnnouncementBanner />
       </motion.div>
-      <motion.div
+      <Hero />
+      {/* <motion.div
         className="lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] px-2"
-        initial="hidden"
-        animate="visible"
-        variants={{
-          hidden: { opacity: 0 },
-          visible: {
-            opacity: 1,
-            transition: { staggerChildren: 0.15, delayChildren: 0.1 },
-          },
-        }}
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: { staggerChildren: 0.15, delayChildren: 0.1 },
+            },
+          }}
       >
         <motion.h2
           className="text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
@@ -128,7 +131,7 @@ export default function Home() {
         >
           send mail
         </motion.a>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div
         className="w-full max-w-full mt-[4rem]"
@@ -231,7 +234,9 @@ export default function Home() {
         ))}
       </motion.div>
 
-      <Footer />
+    <hr className="text-zinc-800 mt-8"/>
+      {/* <Footer /> */}
+      <NewFooter />
     </div>
   );
 }
