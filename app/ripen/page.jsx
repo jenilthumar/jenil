@@ -24,7 +24,7 @@ const RipenPage = () => {
           className="mt-[0.5rem] text-[1.25rem] font-[440] tracking-tight"
           variants={fadeInUp}
         >
-          <Link href={"/about"}>
+          <Link href={"/aboutme"}>
             <motion.span
               whileHover={{ color: "#666" }}
               transition={{ duration: 0.2 }}
@@ -32,7 +32,7 @@ const RipenPage = () => {
               about me
             </motion.span>
           </Link>
-          <Link href={"/"} className="ms-[1.5rem]">
+          <Link href={"https://drive.google.com/file/d/1QBjx9aQ_Ioo_DX_yH7EhKnLzRNFx6zXT/view?usp=drive_link"} className="ms-[1.5rem]">
             <motion.span
               whileHover={{ color: "#666" }}
               transition={{ duration: 0.2 }}
