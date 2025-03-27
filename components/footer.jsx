@@ -18,3 +18,5 @@ export const Footer = () => {
         </div>
     );
 };
+
+// "forcing vercel to commit lol"
