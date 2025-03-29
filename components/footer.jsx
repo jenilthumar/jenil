@@ -5,7 +5,7 @@ export const Footer = () => {
       <div className="
         mt-16 sm:mt-20 lg:mt-[6rem]                     // Reduced top margin on smaller screens
         bg-[#E5F0FF]                                   // Light blue background always
-        rounded-tr-[60px] rounded-tl-[60px]           // Slightly reduced rounding for smaller screens
+        rounded-tr-[60px] rounded-tl-[60px]           // Slightly reduced rounding for smaller screens (adjust as needed)
         lg:rounded-tr-[124px] lg:rounded-tl-[124px]     // Restore full rounding on large screens
         py-10 sm:py-14 lg:py-[5.22rem]                 // Reduced vertical padding on smaller screens
       ">
@@ -23,21 +23,17 @@ export const Footer = () => {
   
           {/* Button Container - Always centered */}
           <div className="flex justify-center">
-            {/* Footer Button - Styles inherited from 'send mail' button */}
             <a
               href="mailto:jenilthummar3108@gmail.com"
               className="
-                mt-6 sm:mt-8 lg:mt-[36px]                  // Keep reduced top margin for smaller screens
-                inline-block                              // Ensure it behaves like a block for padding/margin
-                px-[1rem] lg:px-[1.25rem]                 // Padding X from 'send mail'
-                py-[0.6rem] lg:py-[0.7rem]               // Padding Y from 'send mail'
-                bg-[#1b1b1b]                              // Keep dark background
-                hover:bg-[#000000] transition-all        // Keep hover effect
-                text-[#ffffff]                             // Keep white text
-                text-[1.1rem] lg:text-[1.25rem]           // Font size from 'send mail'
-                font-[550]                                // Font weight from 'send mail' (or use 500 if preferred)
-                rounded-[0.5rem]                         // Keep rounding
-                cursor-pointer
+                mt-6 sm:mt-8 lg:mt-[36px]                  // Reduced top margin on smaller screens
+                rounded-[0.5rem] bg-[#1b1b1b]
+                px-4 sm:px-5 lg:px-[1.5rem]               // Reduced horizontal padding on smaller screens
+                py-2 sm:py-2.5 lg:py-[0.7rem]             // Reduced vertical padding on smaller screens
+                hover:bg-[#000000] transition-all
+                text-base sm:text-lg lg:text-[1.5rem]     // Smaller font size on smaller screens
+                font-[500] text-[#ffffff] cursor-pointer
+                inline-block
               "
             >
               A collaboration or a chat? {/* Button text */}
@@ -51,6 +47,7 @@ export const Footer = () => {
             text-base lg:text-[1.25rem]               // Smaller font size on smaller screens
             font-[600]
             text-[#1a1a1a]                           // Text color always dark
+            underline
           ">
             jenilthummar3108@gmail.com
           </a>
