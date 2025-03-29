@@ -28,7 +28,7 @@ export default function Home() {
       image: "/veriprod.png",
       title:
         "what if you never have to remember when your products are expiring?",
-      tags: ["app design", "showcase", "hobby project"],
+      tags: ["app design", "showcase"],
       href: "/veriprod",
     },
     {
