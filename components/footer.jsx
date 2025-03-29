@@ -28,8 +28,8 @@ export const Footer = () => {
               className="
                 mt-6 sm:mt-8 lg:mt-[36px]                  // Reduced top margin on smaller screens
                 rounded-[0.5rem] bg-[#1b1b1b]
-                px-4 sm:px-5 lg:px-[1.5rem]               // Reduced horizontal padding on smaller screens
-                py-2 sm:py-2.5 lg:py-[0.7rem]             // Reduced vertical padding on smaller screens
+                px-4 sm:px-5 lg:px-[2rem]               // Reduced horizontal padding on smaller screens
+                py-2 sm:py-2.5 lg:py-[1rem]             // Reduced vertical padding on smaller screens
                 hover:bg-[#000000] transition-all
                 text-base sm:text-lg lg:text-[1.5rem]     // Smaller font size on smaller screens
                 font-[500] text-[#ffffff] cursor-pointer
