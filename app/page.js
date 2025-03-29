@@ -17,7 +17,7 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      image: "/sitenote.png",
+      image: "/sitenote.webp",
       title:
         "how can real estate businesses streamline management and communication?",
       tags: ["product design", "case study"],
@@ -67,7 +67,7 @@ export default function Home() {
         <AnnouncementBanner />
       </motion.div>
       <motion.div
-        className="lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] px-2"
+        className="lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] px-8 lg:px-2"
         initial="hidden"
         animate="visible"
         variants={{
@@ -185,16 +185,19 @@ export default function Home() {
             onClick={() => router.push(project.href)}
           >
             <motion.div
-              className="relative w-[100%] h-[30rem] rounded-[0.5rem] overflow-hidden"
+              // Mobile: Use aspect-[3/2]. Desktop: Use fixed h-[30rem].
+              className="relative w-full aspect-[3/2] lg:aspect-auto lg:h-[30rem] rounded-[0.5rem] overflow-hidden"
               ref={index === 0 ? imageRef : null}
               transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             >
+              {/* Next.js Image Component - Keep object-cover */}
               <Image
                 src={project.image}
                 layout="fill"
                 objectFit="cover"
-                className="transition-all duration-700"
+                className="transition-all duration-700 object-center"
                 alt={project.title}
+                sizes="(max-width: 1024px) 100vw, 45rem"
               />
             </motion.div>
 
