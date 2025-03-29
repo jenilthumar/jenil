@@ -19,6 +19,7 @@
     "react-dom": "^18",
     "react-is": "^19.0.0",
     "reveal.js": "^5.1.0",
+    "sharp": "^0.33.5",
     "spectacle": "^10.1.8"
   },
   "devDependencies": {

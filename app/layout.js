@@ -7,7 +7,7 @@ const PlusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
-  title: "jenil thumar",
+  title: "Jenil Thummar",
   description: "Portfolio site of Jenil Thumar",
 };
 
