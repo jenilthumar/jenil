@@ -115,7 +115,7 @@ const SitenotePage = () => {
       {/* ----- Context Section ----- */}
       <div className={`mt-12 lg:mt-[4rem] max-w-[45rem] mx-auto w-full ${mobilePadding} ${desktopPadding}`}>
         <div className="text-[#1a1a1a] text-[1.75rem] lg:text-[2rem] font-[600] tracking-tight">context</div>
-        <div className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] mt-4 lg:mt-[1.5rem] leading-snug">
+        <div className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] mt-4 lg:mt-[1.5rem] leading-normal">
           Sitenote is a web app that helps real estate and construction builders to manage their projects and sites effectively and seamlessly by providing core features and solutions. The app helped me explore my skills in UI/UX design, research and talking with stakeholders, giving emphasis on the ability to deliver functional-intuative and user-friendly digital experiences.
         </div>
       </div>
@@ -128,33 +128,33 @@ const SitenotePage = () => {
       {/* ----- Problem Discovery Section ----- */}
       <div className={`max-w-[45rem] mx-auto w-full ${mobilePadding} ${desktopPadding}`}>
         <div className="mt-12 lg:mt-[4rem] text-[1.75rem] lg:text-[2rem] text-[#1a1a1a] font-[600] tracking-tight">problem discovery</div>
-        <p className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] leading-snug">
+        <p className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] leading-normal">
           Real estate and construction often rely on Whatsapp and calls for communication which is time-consuming and not a very reliable and effective form of communication considering many types of individuals and departments are involved to achieve a common goal.
         </p>
         <div className="mt-4 lg:mt-[1.5rem] ps-4 lg:ps-[1.5rem]">
           <ul className="list-disc text-base lg:text-[1.25rem]">
-            <li className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] font-[500] leading-snug">
+            <li className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] font-[500] leading-normal">
               The data and information aren't available to access easily, there isn't one centralized information system in place to do so.
             </li>
-            <li className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] font-[500] leading-snug">
+            <li className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] font-[500] leading-normal">
               There is also a major communication lag between office staff and on-site staff.
             </li>
           </ul>
         </div>
         <div className="mt-6 lg:mt-[1.5rem] flex flex-col gap-y-3 lg:gap-y-[1rem]">
-          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit">1. Whatsapp has limitations</p>
-          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit">2. Inefficient site-to-office coordination</p>
+          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit leading-normal">1. Whatsapp has limitations</p>
+          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit leading-normal">2. Inefficient site-to-office coordination</p>
           {/* ... other pills */}
-          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit">3. Data accessibility </p>
-          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit">4. Scattered customer records</p>
-          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit">5. Lack of sales pipeline visibility</p>
+          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit leading-normal">3. Data accessibility </p>
+          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit leading-normal">4. Scattered customer records</p>
+          <p className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] bg-[#E6E6E6] px-3 py-1 lg:px-[0.81rem] lg:py-[0.41rem] rounded-[2.5rem] inline w-fit leading-normal">5. Lack of sales pipeline visibility</p>
         </div>
 
         {/* Goal Section */}
         <div className="mt-12 lg:mt-[4rem]">
           <div className="text-[#1a1a1a] font-[600] text-[1.75rem] lg:text-[2rem] tracking-tight">goal</div>
-          <div className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] font-[500] text-base lg:text-[1.25rem] leading-snug">A digitally centralized and synced workspace for</div>
-          <div className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] font-[500] text-base lg:text-[1.25rem] flex flex-col gap-y-2 lg:gap-y-0 leading-snug">
+          <div className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] font-[500] text-base lg:text-[1.25rem] leading-normal">A digitally centralized and synced workspace for</div>
+          <div className="mt-4 lg:mt-[1.5rem] text-[#1a1a1a] font-[500] text-base lg:text-[1.25rem] flex flex-col gap-y-2 lg:gap-y-0 leading-normal">
             <div className="text-[#1a1a1a] font-[500]">1. Centralized communication</div>
             <div className="lg:mt-[1rem] text-[#1a1a1a] font-[500]">2. Centralized place to store all the communication and data</div>
           </div>
@@ -163,7 +163,7 @@ const SitenotePage = () => {
         {/* Process Section */}
         <div className="mt-12 lg:mt-[4rem]">
           <div className="text-[#1a1a1a] font-[600] tracking-tight text-[1.75rem] lg:text-[2rem]">process</div>
-          <div className="mt-4 lg:mt-[1.5rem] text-base lg:text-[1.25rem] font-[500] leading-snug">I started the process by asking lots of questions to one of the stakeholders who is also my close uncle and has been in construction and real estate for over 20y.</div>
+          <div className="mt-4 lg:mt-[1.5rem] text-base lg:text-[1.25rem] font-[500] leading-normal">I started the process by asking lots of questions to one of the stakeholders who is also my close uncle and has been in construction and real estate for over 20y.</div>
         </div>
 
         {/* Image Section 2 */}
@@ -175,25 +175,25 @@ const SitenotePage = () => {
         {/* Research Section */}
         <div className="mt-12 lg:mt-[4rem]">
           <div className="text-[#1a1a1a] font-[600] tracking-tight text-[1.75rem] lg:text-[2rem]">research</div>
-          <div className="mt-4 lg:mt-[1.5rem] text-base lg:text-[1.25rem] font-[500] leading-snug">The main method of research was in-person interviews with stakeholders.</div>
-          <div className="mt-4 lg:mt-[1.5rem] text-base lg:text-[1.25rem] font-[500] leading-snug">I had a pretty good idea about this business due to it being a popular business in our family which helped me a lot to come up with a solution initially. I continued taking interviews and talking with stakeholders throughout the project.</div>
+          <div className="mt-4 lg:mt-[1.5rem] text-base lg:text-[1.25rem] font-[500] leading-normal">The main method of research was in-person interviews with stakeholders.</div>
+          <div className="mt-4 lg:mt-[1.5rem] text-base lg:text-[1.25rem] font-[500] leading-normal">I had a pretty good idea about this business due to it being a popular business in our family which helped me a lot to come up with a solution initially. I continued taking interviews and talking with stakeholders throughout the project.</div>
         </div>
 
         {/* Key Findings Box */}
         <div className="mt-12 lg:mt-[4rem] p-4 lg:p-[1.5rem] bg-[#ED6A47] rounded-[0.5rem] text-white">
           <div className="font-[600] tracking-tight text-lg lg:text-[1.5rem]">key findings</div>
           <div className="mt-6 lg:mt-[2rem] space-y-6 lg:space-y-[2rem]">
-             <div className="flex gap-x-3 lg:gap-x-[1rem] text-base lg:text-[1.25rem] font-[550] leading-snug">
+             <div className="flex gap-x-3 lg:gap-x-[1rem] text-base lg:text-[1.25rem] font-[550] leading-normal">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" className="flex-shrink-0 w-6 h-6 lg:w-auto lg:h-auto mt-1">
                 <path d="M12 22.9785C10.6167 22.9785 9.31667 22.716 8.1 22.191C6.88333 21.666 5.825 20.9535 4.925 20.0535C4.025 19.1535 3.3125 18.0952 2.7875 16.8785C2.2625 15.6618 2 14.3618 2 12.9785C2 11.5952 2.2625 10.2952 2.7875 9.07852C3.3125 7.86185 4.025 6.80352 4.925 5.90352C5.825 5.00352 6.88333 4.29102 8.1 3.76602C9.31667 3.24102 10.6167 2.97852 12 2.97852C13.3833 2.97852 14.6833 3.24102 15.9 3.76602C17.1167 4.29102 18.175 5.00352 19.075 5.90352C19.975 6.80352 20.6875 7.86185 21.2125 9.07852C21.7375 10.2952 22 11.5952 22 12.9785C22 14.3618 21.7375 15.6618 21.2125 16.8785C20.6875 18.0952 19.975 19.1535 19.075 20.0535C18.175 20.9535 17.1167 21.666 15.9 22.191C14.6833 22.716 13.3833 22.9785 12 22.9785ZM12 20.9785C14.2333 20.9785 16.125 20.2035 17.675 18.6535C19.225 17.1035 20 15.2118 20 12.9785C20 10.7452 19.225 8.85352 17.675 7.30352C16.125 5.75352 14.2333 4.97852 12 4.97852C9.76667 4.97852 7.875 5.75352 6.325 7.30352C4.775 8.85352 4 10.7452 4 12.9785C4 15.2118 4.775 17.1035 6.325 18.6535C7.875 20.2035 9.76667 20.9785 12 20.9785ZM12 18.9785C10.3333 18.9785 8.91667 18.3952 7.75 17.2285C6.58333 16.0618 6 14.6452 6 12.9785C6 11.3118 6.58333 9.89518 7.75 8.72852C8.91667 7.56185 10.3333 6.97852 12 6.97852C13.6667 6.97852 15.0833 7.56185 16.25 8.72852C17.4167 9.89518 18 11.3118 18 12.9785C18 14.6452 17.4167 16.0618 16.25 17.2285C15.0833 18.3952 13.6667 18.9785 12 18.9785ZM12 16.9785C13.1 16.9785 14.0417 16.5868 14.825 15.8035C15.6083 15.0202 16 14.0785 16 12.9785C16 11.8785 15.6083 10.9368 14.825 10.1535C14.0417 9.37018 13.1 8.97852 12 8.97852C10.9 8.97852 9.95833 9.37018 9.175 10.1535C8.39167 10.9368 8 11.8785 8 12.9785C8 14.0785 8.39167 15.0202 9.175 15.8035C9.95833 16.5868 10.9 16.9785 12 16.9785ZM12 14.9785C11.45 14.9785 10.9792 14.7827 10.5875 14.391C10.1958 13.9993 10 13.5285 10 12.9785C10 12.4285 10.1958 11.9577 10.5875 11.566C10.9792 11.1743 11.45 10.9785 12 10.9785C12.55 10.9785 13.0208 11.1743 13.4125 11.566C13.8042 11.9577 14 12.4285 14 12.9785C14 13.5285 13.8042 13.9993 13.4125 14.391C13.0208 14.7827 12.55 14.9785 12 14.9785Z" fill="white" />
               </svg>Most users wanted to streamline communication, reduce calls and WhatsApp messages.
             </div>
-             <div className="flex gap-x-3 lg:gap-x-[1rem] text-base lg:text-[1.25rem] font-[550] leading-snug">
+             <div className="flex gap-x-3 lg:gap-x-[1rem] text-base lg:text-[1.25rem] font-[550] leading-normal">
                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" className="flex-shrink-0 w-6 h-6 lg:w-auto lg:h-auto mt-1">
                  <path d="M12 21.9785L5 18.1785V12.1785L1 9.97852L12 3.97852L23 9.97852V17.9785H21V11.0785L19 12.1785V18.1785L12 21.9785ZM12 13.6785L18.85 9.97852L12 6.27852L5.15 9.97852L12 13.6785ZM12 19.7035L17 17.0035V13.2285L12 15.9785L7 13.2285V17.0035L12 19.7035Z" fill="white" />
                </svg>Site workers had limited literacy in enterprise solutions.
              </div>
-             <div className="flex gap-x-3 lg:gap-x-[1rem] text-base lg:text-[1.25rem] font-[550] leading-snug">
+             <div className="flex gap-x-3 lg:gap-x-[1rem] text-base lg:text-[1.25rem] font-[550] leading-normal">
                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" className="flex-shrink-0 w-6 h-6 lg:w-auto lg:h-auto mt-1">
                  <path d="M12 16.9785C13.25 16.9785 14.3125 16.541 15.1875 15.666C16.0625 14.791 16.5 13.7285 16.5 12.4785C16.5 11.2285 16.0625 10.166 15.1875 9.29102C14.3125 8.41602 13.25 7.97852 12 7.97852C10.75 7.97852 9.6875 8.41602 8.8125 9.29102C7.9375 10.166 7.5 11.2285 7.5 12.4785C7.5 13.7285 7.9375 14.791 8.8125 15.666C9.6875 16.541 10.75 16.9785 12 16.9785ZM12 15.1785C11.25 15.1785 10.6125 14.916 10.0875 14.391C9.5625 13.866 9.3 13.2285 9.3 12.4785C9.3 11.7285 9.5625 11.091 10.0875 10.566C10.6125 10.041 11.25 9.77852 12 9.77852C12.75 9.77852 13.3875 10.041 13.9125 10.566C14.4375 11.091 14.7 11.7285 14.7 12.4785C14.7 13.2285 14.4375 13.866 13.9125 14.391C13.3875 14.916 12.75 15.1785 12 15.1785ZM12 19.9785C9.56667 19.9785 7.35 19.2993 5.35 17.941C3.35 16.5827 1.9 14.7618 1 12.4785C1.9 10.1952 3.35 8.37435 5.35 7.01602C7.35 5.65768 9.56667 4.97852 12 4.97852C14.4333 4.97852 16.65 5.65768 18.65 7.01602C20.65 8.37435 22.1 10.1952 23 12.4785C22.1 14.7618 20.65 16.5827 18.65 17.941C16.65 19.2993 14.4333 19.9785 12 19.9785ZM12 17.9785C13.8833 17.9785 15.6125 17.4827 17.1875 16.491C18.7625 15.4993 19.9667 14.1618 20.8 12.4785C19.9667 10.7952 18.7625 9.45768 17.1875 8.46602C15.6125 7.47435 13.8833 6.97852 12 6.97852C10.1167 6.97852 8.3875 7.47435 6.8125 8.46602C5.2375 9.45768 4.03333 10.7952 3.2 12.4785C4.03333 14.1618 5.2375 15.4993 6.8125 16.491C8.3875 17.4827 10.1167 17.9785 12 17.9785Z" fill="white" />
                </svg>Users preferred to access only the features they needed in the app.
@@ -225,7 +225,7 @@ const SitenotePage = () => {
                <path d="M6.325 21.5742L7.95 14.5492L2.5 9.82422L9.7 9.19922L12.5 2.57422L15.3 9.19922L22.5 9.82422L17.05 14.5492L18.675 21.5742L12.5 17.8492L6.325 21.5742Z" fill="#1A1A1A" />
              </svg>key design decision
            </div>
-           <p className="mt-4 lg:mt-[2rem] font-[500] text-base lg:text-[1.25rem] leading-relaxed">
+           <p className="mt-4 lg:mt-[2rem] font-[500] text-base lg:text-[1.25rem] leading-normal">
              I chose Material Design 3 as a basis guideline system because my target audience is already familiar with it through Whatsapp and it uses MD3, so it will be easy for users to settle in starting.
            </p>
          </div>
@@ -247,7 +247,7 @@ const SitenotePage = () => {
           // Mobile: Flex scroll styles + Internal Padding + HIDE SCROLLBAR
           flex overflow-x-auto space-x-4 scroll-smooth snap-x snap-mandatory py-4 px-6 scrollbar-hide
           // MD: Revert to Grid styles + Reset Mobile Styles
-          md:grid md:grid-cols-2 md:gap-8 md:space-x-0 md:overflow-visible md:py-0 md:px-0 md:snap-none
+          md:grid md:grid-cols-2 md:gap-12 md:space-x-0 md:overflow-visible md:py-0 md:px-0 md:snap-none
           // LG: Grid cols + Centering + Original Gaps
           lg:grid-cols-3 lg:gap-x-[4rem] lg:gap-y-[4rem] lg:max-w-[60rem] lg:mx-auto lg:px-0
         `}
@@ -297,7 +297,7 @@ const SitenotePage = () => {
           // Mobile: Flex scroll styles + Internal Padding + HIDE SCROLLBAR
           flex overflow-x-auto space-x-4 scroll-smooth snap-x snap-mandatory py-4 px-6 scrollbar-hide
           // MD: Revert to Grid styles + Reset Mobile Styles
-          md:grid md:grid-cols-2 md:gap-8 md:space-x-0 md:overflow-visible md:py-0 md:px-0 md:snap-none
+          md:grid md:grid-cols-2 md:gap-12 md:space-x-0 md:overflow-visible md:py-0 md:px-0 md:snap-none
           // LG: Grid cols + Centering + Original Gaps
           lg:grid-cols-3 lg:gap-x-[4rem] lg:gap-y-[4rem] lg:max-w-[60rem] lg:mx-auto lg:px-0
         `}
