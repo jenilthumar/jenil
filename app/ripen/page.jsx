@@ -2,90 +2,85 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { fadeInUp } from "../animations";
+import { fadeInUp } from "../animations"; // Assuming animations defined
 import { useRouter } from "next/navigation";
-import { Footer } from "@/components/footer";
-import RevealDeck from "@/components/RevealDeck";
+import { Footer } from "@/components/footer"; // Assuming responsive Footer
+import RevealDeck from "@/components/RevealDeck"; // Assuming this component exists
 
 const RipenPage = () => {
   const router = useRouter();
 
+  // Consistent padding for mobile sections
+  const mobilePadding = "px-6";
+  const desktopContentPadding = "lg:px-0"; // No padding needed inside max-width container
+  const desktopImagePadding = "lg:px-2"; // Slight padding for wider images if needed
+
   return (
     <div>
-      <div className="flex justify-between items-center lg:max-w-[45rem] w-full mx-auto mt-[2.36rem]">
+      {/* ----- Header ----- */}
+      <div className={`flex justify-between items-center lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] ${mobilePadding} lg:px-2`}>
         <motion.h2
-          className="text-[2rem] font-[700] tracking-tight text-[#1a1a1a] cursor-pointer pl-2 lg:pl-0"
+          // Adjust font size for mobile
+          className="text-[1.75rem] lg:text-[2rem] font-[700] tracking-tight text-[#1a1a1a] cursor-pointer"
           variants={fadeInUp}
           onClick={() => router.push("/")}
         >
           Jenil
         </motion.h2>
+        {/* Hide links on mobile */}
         <motion.div
-          className="mt-[0.5rem] text-[1.25rem] font-[440] tracking-tight"
+          className="hidden lg:flex items-center text-[1.25rem] font-[400] tracking-tight" // Adjusted font weight
           variants={fadeInUp}
         >
           <Link href={"/aboutme"}>
-            <motion.span
-              whileHover={{ color: "#666" }}
-              transition={{ duration: 0.2 }}
-            >
+            <motion.span whileHover={{ color: "#666" }} transition={{ duration: 0.2 }}>
               about me
             </motion.span>
           </Link>
           <Link href={"https://drive.google.com/file/d/1QBjx9aQ_Ioo_DX_yH7EhKnLzRNFx6zXT/view?usp=drive_link"} className="ms-[1.5rem]">
-            <motion.span
-              whileHover={{ color: "#666" }}
-              transition={{ duration: 0.2 }}
-            >
+            <motion.span whileHover={{ color: "#666" }} transition={{ duration: 0.2 }}>
               resume
             </motion.span>
           </Link>
-          <Link
-            href={"/"}
-            className="ms-[1.5rem] bg-[#1a1a1a] text-white py-[0.6rem] px-[1.25rem] rounded-[0.5rem] hover:opacity-80 transition-all"
-          >
-            <motion.span transition={{ duration: 0.2 }}>send mail</motion.span>
-          </Link>
+          <a href="mailto:jenilthummar3108@gmail.com" className="ms-[1.5rem] bg-[#1a1a1a] text-white py-[0.6rem] px-[1.25rem] rounded-[0.5rem] hover:opacity-80 transition-all text-[1.1rem] font-[550]">
+            send mail
+          </a>
         </motion.div>
       </div>
-      <div className="mt-[3.88rem] lg:max-w-[45rem] w-full mx-auto px-2 lg:px-0">
+
+      {/* ----- Title Block ----- */}
+      <div className={`mt-12 lg:mt-[3.88rem] lg:max-w-[45rem] w-full mx-auto ${mobilePadding} ${desktopContentPadding}`}>
         <motion.p
-          className="mt-[2.25rem] text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
+          // Adjust font size and margin for mobile
+          className="mt-6 lg:mt-[2.25rem] text-[1.75rem] lg:text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
           style={{ lineHeight: "normal" }}
           variants={fadeInUp}
         >
-ripen        </motion.p>
+          ripen
+        </motion.p>
+        {/* Tags */}
         <motion.div
-          className="mt-[1.5rem]"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
+          // Adjust margin and tag size/padding for mobile
+          className="mt-4 lg:mt-[1.5rem]"
+          initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.4 }} viewport={{ once: true }}
         >
           <motion.div
-            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
-            whileHover={{ backgroundColor: "#d6d6d6" }}
-            transition={{ duration: 0.2 }}
+            className={`p-2 lg:p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] text-sm lg:text-base font-[500] inline-block`}
+            whileHover={{ backgroundColor: "#d6d6d6" }} transition={{ duration: 0.2 }}
           >
             deck design
           </motion.div>
           <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
-            whileHover={{ backgroundColor: "#d6d6d6" }}
-            transition={{ duration: 0.2 }}
-          >
-            presentation design
-          </motion.div>
-          <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
-            whileHover={{ backgroundColor: "#d6d6d6" }}
-            transition={{ duration: 0.2 }}
+            className={`ms-2 lg:ms-[1rem] p-2 lg:p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] text-sm lg:text-base font-[500] inline-block`}
+            whileHover={{ backgroundColor: "#d6d6d6" }} transition={{ duration: 0.2 }}
           >
             showcase
           </motion.div>
         </motion.div>
-        <div className="mt-[2rem]">
-          <div className="flex justify-between lg:pe-[4rem] text-[1.125rem]">
+        {/* Client Info */}
+        <div className="mt-8 lg:mt-[2rem]">
+          <div className="flex flex-col lg:flex-row lg:justify-between lg:pe-[4rem] text-base lg:text-[1.125rem]">
             <div>
               <div className="text-[#464646] font-[500]">client</div>
               <div className="text-[#1a1a1a] font-[500]">hobby project</div>
@@ -93,81 +88,85 @@ ripen        </motion.p>
           </div>
         </div>
       </div>
-      <div className="mt-[4rem]">
+
+      {/* ----- Cover Image (r-1) ----- */}
+      <div className="mt-12 lg:mt-[4rem]">
+         {/* Reduce max-height on mobile */}
         <img
-          src="rp/r-1.webp"
-          className="max-h-[56rem] w-full object-cover"
-          alt=""
+          src="/rp/r-1.webp"
+          className="max-h-[30rem] lg:max-h-[56rem] w-full object-cover"
+          alt="Ripen Cover"
         />
       </div>
-      <div className="mt-[4rem] max-w-[45rem] mx-auto w-full px-2 lg:px-0">
-        <div className="text-[#1a1a1a] text-[2rem] font-[600] tracking-tight">context</div>
-        <div className="text-[#1a1a1a] text-[1.25rem] font-[500] mt-[1.5rem]">
-        This deck project is very close to my heart and it was a hobby project, I got to know about ripen when they first started out, they had a discord community where I made lots of friends there, just great time to be there and they were in early stage that time(shutdown in dec 2023) and they had this web page about what ripen is, in text with few images mostly, so I used that and created an investors deck out of it, purely for fun and love for ripen and community :)        </div>
+
+      {/* ----- Context Section ----- */}
+      <div className={`mt-12 lg:mt-[4rem] max-w-[45rem] mx-auto w-full ${mobilePadding} ${desktopContentPadding}`}>
+        <div className="text-[#1a1a1a] text-[1.75rem] lg:text-[2rem] font-[600] tracking-tight">context</div>
+         {/* Adjust font size, margin, and leading */}
+        <div className="text-[#1a1a1a] text-base lg:text-[1.25rem] font-[500] mt-4 lg:mt-[1.5rem] leading-normal">
+          This deck project is very close to my heart and it was a hobby project, I got to know about ripen when they first started out, they had a discord community where I made lots of friends there, just great time to be there and they were in early stage that time(shutdown in dec 2023) and they had this web page about what ripen is, in text with few images mostly, so I used that and created an investors deck out of it, purely for fun and love for ripen and community :)
+        </div>
       </div>
-      <div className="mt-[4rem] max-w-[65rem] mx-auto w-full px-2 lg:px-0">
-        <img
-          src="rp/r-2.webp"
-          className="w-full object-cover"
-          alt=""
-        />
+
+      {/* ----- Image Sections (r-2, r-3) ----- */}
+      {/* Use w-full h-auto for these images */}
+      <div className={`mt-12 lg:mt-[4rem] max-w-[65rem] mx-auto w-full ${mobilePadding} ${desktopImagePadding}`}>
+        <img src="/rp/r-2.webp" className="w-full h-auto object-cover rounded-lg" alt="Ripen Screenshot 2" />
       </div>
-      <div className="mt-[4rem] max-w-[65rem] mx-auto w-full px-2 lg:px-0">
-        <img
-          src="rp/r-3.webp"
-          className="w-full object-cover"
-          alt=""
-        />
+      <div className={`mt-8 lg:mt-[4rem] max-w-[65rem] mx-auto w-full ${mobilePadding} ${desktopImagePadding}`}>
+        <img src="/rp/r-3.webp" className="w-full h-auto object-cover rounded-lg" alt="Ripen Screenshot 3" />
       </div>
-      <div className="mt-[4rem] max-w-[65rem] mx-auto w-full px-2 lg:px-0">
+
+      {/* ----- RevealDeck Component ----- */}
+      {/* Assuming RevealDeck handles its own responsiveness. Add padding around it. */}
+      <div className={`mt-12 lg:mt-[4rem] max-w-[65rem] mx-auto w-full ${mobilePadding} ${desktopImagePadding}`}>
         <RevealDeck />
       </div>
-      <div className="lg:w-[45rem] mx-auto px-2 lg:px-0">
-        <div className="mt-[6rem]" onClick={() => router.push("/sitenote")}>
+
+      {/* ----- Next Project ----- */}
+      <div className={`lg:w-[45rem] mx-auto ${mobilePadding} ${desktopContentPadding}`}>
+        {/* Corrected onClick destination and text */}
+        <div className="mt-16 lg:mt-[6rem] cursor-pointer" onClick={() => router.push("/sitenote")}>
           <div
-            className="text-[#1a1a1a] font-[600] tracking-tight text-[2rem] mt-[6rem]"
+            className="text-[#1a1a1a] font-[600] tracking-tight text-[1.75rem] lg:text-[2rem] mt-12 lg:mt-[6rem]" // Adjusted margin
             style={{ lineHeight: "normal" }}
           >
             next project
           </div>
-          <img src="rp/sitenote.webp" className="mt-[2rem]" alt="" />
+           {/* Image - use w-full h-auto */}
+          <img src="/rp/sitenote.webp" className="mt-6 lg:mt-[2rem] w-full h-auto rounded-lg" alt="Sitenote Project" /> {/* Added rounded-lg */}
+          {/* Title - Corrected text */}
           <div
-            className="mt-[2rem] text-[2rem] font-[600] tracking-tight px-[1.5rem]"
+            className="mt-6 lg:mt-[2rem] text-[1.5rem] lg:text-[2rem] font-[600] tracking-tight" // Removed px
             style={{ lineHeight: "normal" }}
           >
-            fractionally
+            How can real estate businesses streamline management and communication? {/* Corrected title */}
           </div>
+          {/* Tags - Corrected tags */}
+          <motion.div
+            className="mt-4 lg:mt-[1.5rem]" // Removed px
+            initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.4 }} viewport={{ once: true }}
+          >
+             {/* Adjust tag size/padding for mobile */}
+            <motion.div
+              className={`p-2 lg:p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] text-sm lg:text-base font-[500] inline-block`}
+              whileHover={{ backgroundColor: "#d6d6d6" }} transition={{ duration: 0.2 }}
+            >
+              product design {/* Corrected tag */}
+            </motion.div>
+            <motion.div
+              className={`ms-2 lg:ms-[1rem] p-2 lg:p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] text-sm lg:text-base font-[500] inline-block`}
+              whileHover={{ backgroundColor: "#d6d6d6" }} transition={{ duration: 0.2 }}
+            >
+              case study {/* Corrected tag */}
+            </motion.div>
+             {/* Removed third tag */}
+          </motion.div>
         </div>
-        <motion.div
-          className="mt-[1.5rem] px-[1.5rem]"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
-        >
-          <motion.div
-            className={`p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
-            whileHover={{ backgroundColor: "#d6d6d6" }}
-            transition={{ duration: 0.2 }}
-          >
-            website design
-          </motion.div>
-          <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
-            whileHover={{ backgroundColor: "#d6d6d6" }}
-            transition={{ duration: 0.2 }}
-          >
-            showcase
-          </motion.div>
-          <motion.div
-            className={`ms-[1rem] p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] font-[500] inline`}
-            whileHover={{ backgroundColor: "#d6d6d6" }}
-            transition={{ duration: 0.2 }}
-          >
-            visual design
-          </motion.div>
-        </motion.div>
       </div>
+
+      {/* ----- Footer ----- */}
       <Footer />
     </div>
   );

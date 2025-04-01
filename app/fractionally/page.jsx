@@ -144,12 +144,6 @@ const FractionallyPage = () => {
               className={`ms-2 lg:ms-[1rem] p-2 lg:p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] text-sm lg:text-base font-[500] inline-block`}
               whileHover={{ backgroundColor: "#d6d6d6" }} transition={{ duration: 0.2 }}
             >
-              presentation design
-            </motion.div>
-            <motion.div
-              className={`ms-2 lg:ms-[1rem] p-2 lg:p-[0.75rem] bg-[#f5f5f5] rounded-[3.125rem] text-[#505050] text-sm lg:text-base font-[500] inline-block`}
-              whileHover={{ backgroundColor: "#d6d6d6" }} transition={{ duration: 0.2 }}
-            >
               showcase
             </motion.div>
           </motion.div>
