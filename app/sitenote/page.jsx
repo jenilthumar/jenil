@@ -225,7 +225,7 @@ const SitenotePage = () => {
                <path d="M6.325 21.5742L7.95 14.5492L2.5 9.82422L9.7 9.19922L12.5 2.57422L15.3 9.19922L22.5 9.82422L17.05 14.5492L18.675 21.5742L12.5 17.8492L6.325 21.5742Z" fill="#1A1A1A" />
              </svg>key design decision
            </div>
-           <p className="mt-4 lg:mt-[2rem] font-[500] text-base lg:text-[1.25rem] leading-snug">
+           <p className="mt-4 lg:mt-[2rem] font-[500] text-base lg:text-[1.25rem] leading-relaxedj">
              I chose Material Design 3 as a basis guideline system because my target audience is already familiar with it through Whatsapp and it uses MD3, so it will be easy for users to settle in starting.
            </p>
          </div>
@@ -242,17 +242,14 @@ const SitenotePage = () => {
       {/* ----- Screenshot Grid 1 ----- */}
       {/* Re-adding Gradient */}
       <div className={`
-          mt-12 lg:mt-[6rem] relative // Added relative
+          mt-12 lg:mt-[6rem]
+          // Added relative
           // Mobile: Flex scroll styles + Internal Padding + HIDE SCROLLBAR
           flex overflow-x-auto space-x-4 scroll-smooth snap-x snap-mandatory py-4 px-6 scrollbar-hide
           // MD: Revert to Grid styles + Reset Mobile Styles
           md:grid md:grid-cols-2 md:gap-8 md:space-x-0 md:overflow-visible md:py-0 md:px-0 md:snap-none
           // LG: Grid cols + Centering + Original Gaps
           lg:grid-cols-3 lg:gap-x-[4rem] lg:gap-y-[4rem] lg:max-w-[60rem] lg:mx-auto lg:px-0
-
-          // ----> Gradient Fade for Mobile <----
-          after:content-[''] after:absolute after:top-0 after:bottom-0 after:right-0 after:w-16 after:bg-gradient-to-l after:from-[#Fafafa] after:to-transparent after:pointer-events-none
-          md:after:hidden // Hide the gradient fade on medium screens and up
         `}
       >
         {grid1Images.map((img) => (
@@ -296,17 +293,13 @@ const SitenotePage = () => {
       {/* ----- Screenshot Grid 2 ----- */}
       {/* Re-adding Gradient */}
       <div className={`
-          mt-12 lg:mt-[6rem] relative // Added relative
+          mt-12 lg:mt-[6rem] // Added relative
           // Mobile: Flex scroll styles + Internal Padding + HIDE SCROLLBAR
           flex overflow-x-auto space-x-4 scroll-smooth snap-x snap-mandatory py-4 px-6 scrollbar-hide
           // MD: Revert to Grid styles + Reset Mobile Styles
           md:grid md:grid-cols-2 md:gap-8 md:space-x-0 md:overflow-visible md:py-0 md:px-0 md:snap-none
           // LG: Grid cols + Centering + Original Gaps
           lg:grid-cols-3 lg:gap-x-[4rem] lg:gap-y-[4rem] lg:max-w-[60rem] lg:mx-auto lg:px-0
-
-          // ----> Gradient Fade for Mobile <----
-          after:content-[''] after:absolute after:top-0 after:bottom-0 after:right-0 after:w-16 after:bg-gradient-to-l after:from-[#Fafafa] after:to-transparent after:pointer-events-none
-          md:after:hidden // Hide the gradient fade on medium screens and up
         `}
       >
         {grid2Images.map((img) => (
