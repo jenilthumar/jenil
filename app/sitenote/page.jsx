@@ -225,7 +225,7 @@ const SitenotePage = () => {
                <path d="M6.325 21.5742L7.95 14.5492L2.5 9.82422L9.7 9.19922L12.5 2.57422L15.3 9.19922L22.5 9.82422L17.05 14.5492L18.675 21.5742L12.5 17.8492L6.325 21.5742Z" fill="#1A1A1A" />
              </svg>key design decision
            </div>
-           <p className="mt-4 lg:mt-[2rem] font-[500] text-base lg:text-[1.25rem] leading-relaxedj">
+           <p className="mt-4 lg:mt-[2rem] font-[500] text-base lg:text-[1.25rem] leading-relaxed">
              I chose Material Design 3 as a basis guideline system because my target audience is already familiar with it through Whatsapp and it uses MD3, so it will be easy for users to settle in starting.
            </p>
          </div>
