@@ -36,7 +36,7 @@ export default function AboutMe() {
 
             <div className="pt-2">
               <p className="text-[#414A4C] text-[1.25rem] font-[400] italic">
-                <Link href="#projects" className="hover:underline">
+                <Link href="./#worksection" className="hover:underline">
                   projects
                 </Link>
                 {" • "}

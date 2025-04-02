@@ -38,13 +38,12 @@ const SitenotePage = () => {
     <div>
       {/* ... (Header, Title Block, Cover Image, Context, Image 1, Problem, Goal, Process, Image 2, Research, Findings, Scope, Image 3, Decision, Booking sections remain the same, including line-height changes) ... */}
        {/* ----- Header ----- */}
-      <div className={`flex justify-between items-center lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] ${mobilePadding} lg:px-2`}>
+      <div className={`flex justify-between items-center lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] ${mobilePadding} ${desktopPadding}`}>
         <motion.h2
           className="text-[1.75rem] lg:text-[2rem] font-[700] tracking-tight text-[#1a1a1a] cursor-pointer"
           variants={fadeInUp}
           onClick={() => router.push("/")}
-        >
-          Jenil
+        >Jenil
         </motion.h2>
         <motion.div
           className="hidden lg:flex items-center text-[1.25rem] font-[400] tracking-tight"

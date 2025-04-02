@@ -6,7 +6,6 @@ import Link from "next/link";
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 import { useRouter } from "next/navigation";
-import AnnouncementBanner from "@/components/announcement-banner";
 import { fadeInUp } from './animations';
 
 export default function Home() {
@@ -19,7 +18,7 @@ export default function Home() {
       id: 1,
       image: "/sitenote.webp",
       title:
-        "how can real estate businesses streamline management and communication?",
+        "How can real estate businesses streamline management and communication?",
       tags: ["product design", "case study"],
       href: "/sitenote",
     },
@@ -27,35 +26,35 @@ export default function Home() {
       id: 2,
       image: "/veriprod.png",
       title:
-        "what if you never have to remember when your products are expiring?",
+        "What if you never have to remember when your products are expiring?",
       tags: ["app design", "showcase"],
       href: "/veriprod",
     },
     {
       id: 3,
       image: "/3.png",
-      title: "wheatsville coop",
+      title: "Wheatsville coop",
       tags: ["website design", "showcase"],
       href: "/wheatsville",
     },
     {
       id: 4,
       image: "/shilp.webp",
-      title: "shilp",
+      title: "Shilp",
       tags: ["website design", "showcase"],
       href: "/shilp",
     },
     {
       id: 5,
       image: "/fractionally.png",
-      title: "fractionally",
+      title: "Fractionally",
       tags: ["website design", "showcase"],
       href: "/fractionally",
     },
     {
       id: 6,
       image: "/ripen.png",
-      title: "ripen",
+      title: "Ripen",
       tags: ["deck design", "showcase"],
       href: "/ripen",
     },
@@ -63,11 +62,8 @@ export default function Home() {
 
   return (
     <div>
-      <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
-        <AnnouncementBanner />
-      </motion.div>
       <motion.div
-        className="lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] px-8 lg:px-2"
+        className="lg:max-w-[45rem] w-full mx-auto mt-[3rem] px-8 lg:px-2"
         initial="hidden"
         animate="visible"
         variants={{
@@ -114,8 +110,7 @@ export default function Home() {
           className="mt-[2rem] text-[#1a1a1a] font-[550] tracking-normal text-[1.30rem]"
           variants={fadeInUp}
         >
-          20, a product/visual designer who emphasizes on creating experiences
-          that are feasible, functional, and visually delightful.
+          Hey, I'm Jenil! A product/visual designer. I shape functional & visually delight digital products.
         </motion.p>
 
         <motion.a
@@ -130,6 +125,8 @@ export default function Home() {
         </motion.a>
       </motion.div>
 
+
+      
       <motion.div
         className="w-full max-w-full mt-[4rem]"
         initial="hidden"
@@ -149,7 +146,7 @@ export default function Home() {
         </video>
       </motion.div>
 
-      <div className="lg:max-w-[45rem] w-full mx-auto mt-[4rem] px-2">
+      <div id="worksection" className="lg:max-w-[45rem] w-full mx-auto mt-[4rem] px-2">
         <motion.h2
           className="text-[2rem] font-[600] tracking-tight text-[#1a1a1a]"
           initial={{ opacity: 0, y: 20 }}
