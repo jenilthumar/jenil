@@ -14,6 +14,7 @@ const WheatsvillePage = () => {
   const mobilePadding = "px-6";
   const desktopContentPadding = "lg:px-0"; // No padding needed inside max-width container
   const desktopImagePadding = "lg:px-2"; // Slight padding for wider images if needed
+  const desktopPadding = "lg:px-0";
 
   return (
     <div>
