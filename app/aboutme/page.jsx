@@ -44,7 +44,7 @@ export default function AboutMe() {
                   email
                 </Link>
                 {" • "}
-                <Link href="https://drive.google.com/file/d/1QBjx9aQ_Ioo_DX_yH7EhKnLzRNFx6zXT/view?usp=sharing" className="hover:underline">
+                <Link href="/jenil_resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:underline">
                   resume
                 </Link>
                 {" • "}

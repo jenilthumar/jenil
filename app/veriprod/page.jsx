@@ -17,7 +17,7 @@ const VeriprodPage = () => {
   return (
     <div>
       {/* ----- Header ----- */}
-      <div className={`flex justify-between items-center lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] ${mobilePadding} lg:px-2`}>
+      <div className={`flex justify-between items-center lg:max-w-[45rem] w-full mx-auto mt-[2.36rem] ${mobilePadding} ${desktopPadding}`}>
         <motion.h2
           // Adjust font size for mobile
           className="text-[1.75rem] lg:text-[2rem] font-[700] tracking-tight text-[#1a1a1a] cursor-pointer"
@@ -36,7 +36,7 @@ const VeriprodPage = () => {
               about me
             </motion.span>
           </Link>
-          <Link href={"https://drive.google.com/file/d/1QBjx9aQ_Ioo_DX_yH7EhKnLzRNFx6zXT/view?usp=drive_link"} className="ms-[1.5rem]">
+          <Link href="/jenil_resume.pdf" target="_blank" rel="noopener noreferrer" className="ms-[1.5rem]">
             <motion.span whileHover={{ color: "#666" }} transition={{ duration: 0.2 }}>
               resume
             </motion.span>

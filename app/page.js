@@ -94,7 +94,7 @@ export default function Home() {
             </motion.span>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1QBjx9aQ_Ioo_DX_yH7EhKnLzRNFx6zXT/view?usp=drive_link"
+            href="/jenil_resume.pdf" target="_blank" rel="noopener noreferrer"
             className="ms-[1.5rem]"
           >
             <motion.span
