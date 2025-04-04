@@ -23,7 +23,7 @@ export default function Home() {
       href: "/sitenote",
     },
     {
-      id: 2,
+      id: 3,
       image: "/veriprod.png",
       title:
         "What if you never have to remember when your products are expiring?",
@@ -31,7 +31,7 @@ export default function Home() {
       href: "/veriprod",
     },
     {
-      id: 3,
+      id: 2,
       image: "/3.png",
       title: "Wheatsville coop",
       tags: ["website design", "showcase"],
