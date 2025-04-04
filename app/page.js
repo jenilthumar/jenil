@@ -82,7 +82,7 @@ export default function Home() {
         </motion.h2>
 
         <motion.div
-          className="mt-[0.5rem] text-[1.25rem] font-[440]"
+          className="mt-[0.5rem] text-[1.25rem] font-[440] underline"
           variants={fadeInUp}
         >
           <Link href="/aboutme">
