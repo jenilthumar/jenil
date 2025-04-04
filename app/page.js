@@ -87,7 +87,7 @@ export default function Home() {
         >
           <Link href="/aboutme">
             <motion.span
-              whileHover={{ color: "#50C878", underline}}
+              whileHover={{ color: "#50C878", underlinePosition: "under" }}
               transition={{ duration: 0.2 }}
             >
               about me
@@ -98,7 +98,7 @@ export default function Home() {
             className="ms-[1.5rem]"
           >
             <motion.span
-              whileHover={{ color: "#50C878", underline }}
+              whileHover={{ color: "#50C878", underlinePosition: "under" }}
               transition={{ duration: 0.2 }}
             >
               resume
