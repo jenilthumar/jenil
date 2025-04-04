@@ -82,12 +82,12 @@ export default function Home() {
         </motion.h2>
 
         <motion.div
-          className="mt-[0.5rem] text-[1.25rem] font-[440] text-[#1F75FE]"
+          className="mt-[0.5rem] text-[1.25rem] font-[440] text-[#1d4ed8] underline underline-offset-[0.2rem] decoration-[#1d4ed8] decoration-[0.1rem]"
           variants={fadeInUp}
         >
           <Link href="/aboutme">
             <motion.span
-              whileHover={{ color: "#3B00DB", underlinePosition: "under", underlineThickness: "0.1rem" }}
+              whileHover={{ color: "#1842b5" }}
               transition={{ duration: 0.2 }}
             >
               about me
@@ -98,7 +98,7 @@ export default function Home() {
             className="ms-[1.5rem]"
           >
             <motion.span
-              whileHover={{ color: "#3B00DB", underlinePosition: "under", underlineThickness: "0.1rem" }}
+              whileHover={{ color: "#1842b5" }}
               transition={{ duration: 0.2 }}
             >
               resume
