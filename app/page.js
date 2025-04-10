@@ -23,19 +23,19 @@ export default function Home() {
       href: "/sitenote",
     },
     {
-      id: 3,
-      image: "/veriprod.png",
-      title:
-        "What if you never have to remember when your products are expiring?",
-      tags: ["app design", "showcase"],
-      href: "/veriprod",
-    },
-    {
       id: 2,
       image: "/3.png",
       title: "Wheatsville coop",
       tags: ["website design", "showcase"],
       href: "/wheatsville",
+    },
+    {
+      id: 2,
+      image: "/veriprod.png",
+      title:
+        "What if you never have to remember when your products are expiring?",
+      tags: ["app design", "showcase"],
+      href: "/veriprod",
     },
     {
       id: 4,
@@ -85,12 +85,20 @@ export default function Home() {
           className="mt-[0.5rem] text-[1.25rem] font-[440] text-[#1d4ed8] underline underline-offset-[0.2rem] decoration-[#1d4ed8] decoration-[0.1rem]"
           variants={fadeInUp}
         >
-          <Link href="/aboutme">
+          <Link href="/explorations">
             <motion.span
               whileHover={{ color: "#1842b5" }}
               transition={{ duration: 0.2 }}
             >
-              about me
+              explorations
+            </motion.span>
+          </Link>
+          <Link href="/aboutme" className="ms-[1.5rem]">
+            <motion.span
+              whileHover={{ color: "#1842b5" }}
+              transition={{ duration: 0.2 }}
+            >
+              about
             </motion.span>
           </Link>
           <Link
