@@ -30,7 +30,7 @@ export default function Home() {
       href: "/wheatsville",
     },
     {
-      id: 2,
+      id: 3,
       image: "/veriprod.png",
       title:
         "What if you never have to remember when your products are expiring?",
@@ -50,6 +50,13 @@ export default function Home() {
       title: "Fractionally",
       tags: ["website design", "showcase"],
       href: "/fractionally",
+    },
+    {
+      id: 7,
+      image: "/shubham-tech-cover.webp",
+      title: "Shubham Technology",
+      tags: ["website design", "showcase"],
+      href: "https://www.shubhamtechnology.in/",
     },
     {
       id: 6,
@@ -85,14 +92,7 @@ export default function Home() {
           className="mt-[0.5rem] text-[1.25rem] font-[440] text-[#1d4ed8] underline underline-offset-[0.2rem] decoration-[#1d4ed8] decoration-[0.1rem]"
           variants={fadeInUp}
         >
-          <Link href="/explorations">
-            <motion.span
-              whileHover={{ color: "#1842b5" }}
-              transition={{ duration: 0.2 }}
-            >
-              explorations
-            </motion.span>
-          </Link>
+          
           <Link href="/aboutme" className="ms-[1.5rem]">
             <motion.span
               whileHover={{ color: "#1842b5" }}
@@ -110,6 +110,14 @@ export default function Home() {
               transition={{ duration: 0.2 }}
             >
               resume
+            </motion.span>
+          </Link>
+          <Link href="/explorations">
+            <motion.span
+              whileHover={{ color: "#1842b5" }}
+              transition={{ duration: 0.2 }}
+            >
+              explorations
             </motion.span>
           </Link>
         </motion.div>
@@ -187,7 +195,15 @@ export default function Home() {
               delay: 0.1,
             }}
             viewport={{ once: true, margin: "-50px" }}
-            onClick={() => router.push(project.href)}
+            onClick={() => {
+              if (project.href.startsWith('http')) {
+                // External URL - open in new tab
+                window.open(project.href, '_blank', 'noopener,noreferrer');
+              } else {
+                // Internal route - use router
+                router.push(project.href);
+              }
+            }}
           >
             <motion.div
               // Mobile: Use aspect-[3/2]. Desktop: Use fixed h-[30rem].
