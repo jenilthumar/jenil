@@ -93,7 +93,7 @@ export default function Home() {
           variants={fadeInUp}
         >
           
-          <Link href="/aboutme" className="ms-[1.5rem]">
+          <Link href="/aboutme">
             <motion.span
               whileHover={{ color: "#1842b5" }}
               transition={{ duration: 0.2 }}
@@ -112,7 +112,7 @@ export default function Home() {
               resume
             </motion.span>
           </Link>
-          <Link href="/explorations">
+          <Link href="/explorations" className="ms-[1.5rem]">
             <motion.span
               whileHover={{ color: "#1842b5" }}
               transition={{ duration: 0.2 }}
