@@ -18,7 +18,7 @@ export default function Home() {
       id: 1,
       image: "/sitenote.webp",
       title:
-        "How can real estate businesses streamline management and communication?",
+        "Sitenote",
       tags: ["product design", "case study"],
       href: "/sitenote",
     },
@@ -33,7 +33,7 @@ export default function Home() {
       id: 3,
       image: "/veriprod.png",
       title:
-        "What if you never have to remember when your products are expiring?",
+        "Veriprod?",
       tags: ["app design", "showcase"],
       href: "/veriprod",
     },
