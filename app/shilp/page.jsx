@@ -88,6 +88,34 @@ const ShilpPage = () => {
             </div>
           </div>
         </div>
+
+        <div className="mt-6 lg:mt-[2rem]">
+                  {/* Stack vertically on mobile (already only one item, so structure is fine) */}
+                  <div className="flex flex-row lg:flex-row gap-1 items-center">
+                    <Link
+                      href={"https://shilp.co/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex flex-row lg:flex-row gap-1 items-center"
+                    >
+                      <motion.div
+                      className="text-[#1d4ed8] font-[600]"
+                        whileHover={{ color: "#1842b5" }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        Live
+                      </motion.div>
+                      <div>
+                        <img
+                          src="/arrow-up-right.png"
+                          className="w-5 h-5 lg:w-6 lg:h-6 mt-0.5"
+                          alt="icon"
+                        />
+                      </div>
+                    </Link>
+                    {/* No 'model' info provided in original code */}
+                  </div>
+                </div>
       </div>
 
       {/* ----- Cover Image (sh-1) ----- */}
