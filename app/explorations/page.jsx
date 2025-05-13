@@ -84,6 +84,13 @@ const ExplorationsPage = () => {
       </div>
       <div className={`mt-12 lg:mt-[3rem] max-w-[65rem] mx-auto w-full ${mobilePadding} ${desktopImagePadding}`}>
         <img
+          src="/ep/sitenote v2.webp"
+          className="w-full h-auto object-cover rounded-lg" // Added rounded-lg
+          alt="sitenote v2"
+        />
+      </div>
+      <div className={`mt-12 lg:mt-[3rem] max-w-[65rem] mx-auto w-full ${mobilePadding} ${desktopImagePadding}`}>
+        <img
           src="/ep/B2B saas linkedin ad.webp"
           className="w-full h-auto object-cover rounded-lg" // Added rounded-lg
           alt="acreshub app"
